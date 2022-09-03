@@ -1,0 +1,30 @@
+nav {
+    background: $lightgrey;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    div {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        text-align: center;
+        @include flex;
+        justify-content: center;
+    }
+
+    i {
+        color: #007bff;
+        font-size: 40px;
+        margin: 20px;
+    }
+
+    p {
+        color: gray;
+        margin: 10px;
+        font-size: small;
+    }
+}

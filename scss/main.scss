@@ -1,0 +1,52 @@
+main {
+    background: $lightgrey;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+        @include flex;
+        justify-content: center;
+
+        h5 {
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            color: gray;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+        }
+    }
+
+    img {
+        @include width;
+        background: url(../examples/testimonials-1.jpg);
+        
+    }
+}
+
+.jpg2 {
+    img {
+        @include width;
+        background: url(../examples/testimonials-2.jpg);
+    }
+}
+
+.jpg3 {
+    img {
+        @include width;
+        background: url(../examples/testimonials-3.jpg);
+    }
+}

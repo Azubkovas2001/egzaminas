@@ -1,0 +1,23 @@
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin align{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+@mixin width{
+    width: 150px;
+    height: 150px;
+    gap: 20px;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 0 5px 5px gray;
+}
+@mixin column{
+    flex-direction: column;
+    align-items: center;
+}

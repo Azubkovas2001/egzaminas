@@ -1,0 +1,141 @@
+@media (max-width: 768px) {
+    nav {
+        @include flex;
+        height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        height: 500px;
+        @include flex;
+        justify-content: center;
+        background-color: $lightgrey;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero-section {
+        h1 {
+            @include column;
+            width: 100%;
+        }
+
+        .content {
+            width: 425px;
+            @include column;
+        }
+
+        .container {
+            @include column;
+            margin: auto;
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .container button {
+            width: 100%;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    article,
+    .second .third {
+        @include column;
+        height: 100%;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+
+        .text {
+            flex-direction: column;
+            padding: 0;
+            margin: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 425px) {
+
+    article.second,
+    .third {
+        @include column;
+        height: 100%;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+
+        .text {
+            flex-direction: column;
+            padding: 0;
+            margin: 20px;
+        }
+
+    }
+}
+
+@media (max-width: 425px) {
+    header.text {
+        padding: 30px;
+    }
+
+    main {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    #super-section {
+        h1 {
+            @include column;
+            width: 100%;
+        }
+
+        .content {
+            width: 425px;
+            @include column;
+        }
+
+        .container {
+            @include column;
+            margin: auto;
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        .container button {
+            width: 100%;
+            align-items: center;
+        }
+    }
+}
+
+@media(max-width:425px) {
+    #down-section {
+        div.social {
+            padding: 0;
+            background: $lightgrey;
+            width: 425px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+}
